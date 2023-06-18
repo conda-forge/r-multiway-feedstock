@@ -1,11 +1,11 @@
-About r-multiway
-================
+About r-multiway-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-multiway-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=multiway
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-multiway-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fits multi-way component models via alternating least squares algorithms with optional constraints. Fit models include N-way Canonical Polyadic Decomposition, Individual Differences Scaling, Multiway Covariates Regression, Parallel Factor Analysis (1 and 2), Simultaneous Component Analysis, and Tucker Factor Analysis.
 
