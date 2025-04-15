@@ -1,4 +1,4 @@
-{% set version = '1.0-6' %}
+{% set version = "1.0-7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/multiway_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/multiway/multiway_{{ version }}.tar.gz
-  sha256: fb8d5dd060b32c4607c00121545669b1b0ace95465296f73d35e899cd5f42cf9
+  sha256: e5fcc92368accfa94e5750032c640b0327d957f92adec89110447ceffff9acce
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,10 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=multiway
   license: GPL (>= 2)
-  summary: Fits multi-way component models via alternating least squares algorithms with optional
-    constraints. Fit models include N-way Canonical Polyadic Decomposition, Individual
-    Differences Scaling, Multiway Covariates Regression, Parallel Factor Analysis (1
-    and 2), Simultaneous Component Analysis, and Tucker Factor Analysis.
+  summary: Fits multi-way component models via alternating least squares algorithms with optional constraints. Fit models include N-way Canonical Polyadic Decomposition, Individual Differences Scaling, Multiway Covariates Regression, Parallel Factor Analysis (1 and 2), Simultaneous Component Analysis, and Tucker Factor Analysis.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
